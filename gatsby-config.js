@@ -3,7 +3,7 @@ module.exports = {
     title: `CHOI BOO 블로그`,
     description: `"인생 어려운데 코드라도 쉽게 보자!" 프론트엔드 개발자 CHOI BOO 블로그입니다.`,
     author: `qnrjs42`,
-    siteUrl: 'https://qnrjs42.github.io', // 배포 후 변경 예정
+    siteUrl: 'https://qnrjs42.blog', // 배포 후 변경 예정
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -11,6 +11,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-emotion`,
     `gatsby-plugin-sitemap`,
+    'gatsby-plugin-netlify',
     {
       resolve: 'gatsby-plugin-typescript',
       options: {
@@ -119,7 +120,7 @@ module.exports = {
           {
             resolve: 'gatsby-plugin-canonical-urls',
             options: {
-              siteUrl: 'https://qnrjs42.github.io',
+              siteUrl: 'https://qnrjs42.blog',
               stripQueryString: true,
             },
           },

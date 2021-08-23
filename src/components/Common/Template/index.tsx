@@ -49,9 +49,9 @@ const Template: FC<TemplateProps> = ({
 
         <meta
           name='google-site-verification'
-          content='SNuvF6-Q8t7OSIkEfA5n8w6J79pGFEKAX9FlruNT2fA'
+          content='4vhSU5yrFHV_Kz8-IsHr8SowwHqK12pKV9bYX3HbYrM'
         />
-        <meta name='naver-site-verification' content='77569c0695cbd152717f2e7b1cb6721ab1372ae9' />
+        <meta name='naver-site-verification' content='b9c37aa53c356d4acbffa9df8ad7a617b0b306ba' />
         <html lang='ko' />
       </Helmet>
 
