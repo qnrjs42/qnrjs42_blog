@@ -7,6 +7,10 @@ summary: 'M1 arm64 환경에서 리액트 네이티브 세팅하기 iOS, Android
 
 > 업데이트
 >
+> > 21.10.03 추가
+> >
+> > React Native CLI 0.66.0 버전 테스트 완료. 16번 참조
+>
 > > 21.09.05 추가
 > >
 > > 'react-native-image-picker', 'expo-image-picker' iOS 시뮬레이터에서 이미지 선택이 안 됩니다. (안드로이드, 실기기는 가능)
@@ -358,6 +362,8 @@ yarn start
 
 # 16. React Native CLI 설정
 
+- 0.66.0 버전 테스트 해봤는데 xcode 설정은 패스하셔도 됩니다. 16-2, 16-10, 16-11 보시면 됩니다.
+
 - RN Xcode 이슈가 있어서 까다롭습니다.
 - 현재 RN 버전은 0.64.2 버전입니다.
 - https://zerogyun.dev/2021/05/06/Xcode-12-5%EC%97%90%EC%84%9C-React-Native-%EB%B9%8C%EB%93%9C%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0/
@@ -442,7 +448,7 @@ open M1CLITest.xcworkspace
 
 <br />
 
-<img src='/images/react-native/m1-arm64-setting/19.png' width='100%' />
+<img src='/images/react-native/m1-arm64-setting/19.png' width='50%' />
 
 ## 16-9. 다시 ios 폴더로 돌아와 Pod 설정을 합니다.
 
@@ -476,7 +482,7 @@ rm -rf ~/Library/Developer/Xcode/DerivedData/*
 pod deintegrate && pod setup && pod install
 ```
 
-## 16-9. iOS를 실행합니다.
+## 16-10. iOS를 실행합니다.
 
 ```shell
 cd ..
@@ -485,7 +491,7 @@ yarn run ios
 
 <img src='/images/react-native/m1-arm64-setting/20.png' width='30%' />
 
-## 16-10. 안드로이드를 실행합니다.
+## 16-11. 안드로이드를 실행합니다.
 
 ```shell
 yarn run android
