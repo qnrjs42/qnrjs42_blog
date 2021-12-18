@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `CHOI BOO 블로그`,
-    description: `"인생 어려운데 코드라도 쉽게 보자!" 프론트엔드 개발자 CHOI BOO 블로그입니다.`,
+    description: `프론트엔드 CHOI BOO 블로그입니다.`,
     author: `qnrjs42`,
-    siteUrl: 'https://qnrjs42.blog', // 배포 후 변경 예정
+    siteUrl: 'https://qnrjs42.blog',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
